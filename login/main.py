@@ -6,7 +6,11 @@ from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.image import Image
+from pymongo import MongoClient
 
+client = MongoClient("mongodb://localhost:27017")  # Replace with your MongoDB connection string
+db = client["login_page"]  # Create or use the signup_db database
+users_collection = db["login_signup"]  # Create a collection named users for storing signup data
 
 class LoginScreen(Screen):
     def __init__(self, **kwargs):
@@ -151,6 +155,16 @@ class SignupScreen(Screen):
         email = self.signup_email_input.text
         # Signup logic (placeholder)
         print(f"Create account with username: {username} and password: {password}")
+        
+        # Insert signup data into the users collection
+        user_data = {
+            "username": username,
+            "password": password,
+            "last_name": last_name,
+            "email": email
+        }
+        users_collection.insert_one(user_data)
+        print(f"Account created for username: {username}")
 
 
 class LoginSignupApp(App):
