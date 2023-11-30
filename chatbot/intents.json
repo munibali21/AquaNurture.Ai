@@ -1,0 +1,78 @@
+{
+    "intents": [
+        {
+            "tag": "age_of_fish",
+            "patterns": ["How old are ornamental fish?", "What is the age of ornamental fish?", "How long do ornamental fish live?"],
+            "responses": ["Ornamental fish age varies based on species. Their lifespan can range from a few years to over a decade, depending on the type of fish."],
+            "context_set": ""
+        },
+        {
+            "tag": "types_of_fish",
+            "patterns": ["What are common types of ornamental fish?", "List some popular ornamental fish types.", "Types of ornamental fish?"],
+            "responses": ["There are various types, including goldfish, bettas, guppies, angelfish, tetras, and many more, each with unique characteristics and care requirements."],
+            "context_set": ""
+        },
+        {
+            "tag": "feeding_ornamental_fish",
+            "patterns": ["What should I feed my ornamental fish?", "What is the best food for ornamental fish?", "How to feed ornamental fish?"],
+            "responses": ["Proper nutrition is crucial. Most ornamental fish eat fish flakes or pellets, but specific diets vary based on the species. It's important to provide a balanced diet for their health."],
+            "context_set": ""
+        },
+        {
+            "tag": "tank_size_for_fish",
+            "patterns": ["How big of a tank do I need for different types of ornamental fish?", "Tank size for ornamental fish?", "Tank size for specific ornamental fish species?"],
+            "responses": ["Tank size varies for different species. For instance, smaller fish like guppies may thrive in smaller tanks, while larger species like angelfish may require larger tanks."],
+            "context_set": ""
+        },
+        {
+            "tag": "common_fish_diseases",
+            "patterns": ["What are common diseases that ornamental fish can get?", "Health issues in ornamental fish?", "Fish diseases?"],
+            "responses": ["Ornamental fish are susceptible to diseases like ich, fin rot, velvet, and others. Proper tank maintenance and care can help prevent these diseases."],
+            "context_set": ""
+        },
+        {
+            "tag": "water_parameters_for_fish",
+            "patterns": ["What are the ideal water parameters for keeping ornamental fish?", "Water quality for ornamental fish?", "Fish tank water conditions?"],
+            "responses": ["Maintaining appropriate water parameters such as pH levels, temperature, and ammonia levels specific to each fish species is crucial for their well-being."],
+            "context_set": ""
+        },    
+    
+            {
+                "tag": "best_fish_for_beginners",
+                "patterns": ["What are the best ornamental fish for beginners?", "Recommended fish for beginners?", "Easiest fish to care for?"],
+                "responses": ["Beginners often find success with hardy fish like guppies, bettas, and tetras. They're relatively easy to care for and adapt well to various conditions."],
+                "context_set": ""
+            },
+            {
+                "tag": "aquarium_setup",
+                "patterns": ["How to set up an aquarium for ornamental fish?", "Steps for starting an aquarium?", "Setting up a fish tank?"],
+                "responses": ["Start by cleaning the tank, adding substrate, decorations, and setting up the filter and heater. Cycle the tank before adding fish to establish a stable environment."],
+                "context_set": ""
+            },
+            {
+                "tag": "fish_behavior",
+                "patterns": ["What behaviors should I expect from ornamental fish?", "Fish behavior?", "Understanding fish actions?"],
+                "responses": ["Fish exhibit various behaviors like schooling, hiding, exploring, and territorial displays. Understanding their behavior aids in providing appropriate care."],
+                "context_set": ""
+            },
+            {
+                "tag": "ornamental_fish_breeding",
+                "patterns": ["How to breed ornamental fish?", "Breeding tips for ornamental fish?", "Fish breeding methods?"],
+                "responses": ["Breeding requirements vary among species. In general, create optimal conditions, provide proper nutrition, and separate breeding pairs for successful breeding."],
+                "context_set": ""
+            },
+            {
+                "tag": "tank_maintenance",
+                "patterns": ["How to maintain an ornamental fish tank?", "Fish tank upkeep?", "Maintenance of fish tanks?"],
+                "responses": ["Regularly clean the tank, change a portion of the water weekly, monitor water parameters, and inspect equipment to ensure a healthy environment for your fish."],
+                "context_set": ""
+            },
+            {
+                "tag": "compatibility_of_fish",
+                "patterns": ["Which fish are compatible tankmates?", "Fish compatibility?", "Can different fish species live together?"],
+                "responses": ["Compatibility depends on species temperament and habitat preferences. Some fish, like guppies and tetras, can coexist peacefully, while others may exhibit aggression."],
+                "context_set": ""
+            }
+        ]
+    }
+    
